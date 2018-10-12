@@ -242,4 +242,5 @@ return [
     'expare'  => 24*60*60,
     'jwt_key' =>'5yvCeChx6KGsVcX4ZLBwWrBLQdWeFJZ0S2fLFi2owifuzEU3MX',
     'per_page'=>3,
+    'MOVIE_PREVIEW_PATH' =>'http://xx/esb_ies/'
 ];

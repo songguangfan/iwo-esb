@@ -56,7 +56,7 @@ class Book extends Api {
         $this->checkParam(self::$rule_bookInfo);
         $id=$this->request->param("bk_id");
         $book=new \app\api\model\Book();
-        $results=$book->where('bk_id',$id)->select()->toArray();
+        $results=$book->where('bk_id',$id)->find()->toArray();
         return $this->sendSuccess($results);
     }
 }
